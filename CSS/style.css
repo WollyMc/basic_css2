@@ -1,0 +1,36 @@
+body
+{
+	line-height: 1.5em; /*for line spacing*/
+	margin: 0;
+
+}
+h1
+{
+		font-family: ZILAP MONOGRAMA,Arial; /* Better to use web safe fonts */
+		background-color: #f4f4f4;
+		font-size: 143px;
+		font-weight: bold;
+}
+p
+{
+	color: #FF1493;
+	/*
+	font-family: arial;
+	font-size: 30px;
+	font-weight: normal;
+	We can write the aboive as: */
+	font: normal 30px arial;
+}
+/*To target a class we will use '.'. So in the index we used class as boxA, we would refer it to as .boxA*/
+.boxA
+{
+	background-color: #333333;
+
+}
+/*Now to make everything look neat*/
+.container
+{
+	width:500px; /*this is to understand concept.*/
+	/*width: 80%; This is for making the box adapt to change in windows side*/
+	margin: auto;
+}
